@@ -1,0 +1,43 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+.Python
+env/
+venv/
+.venv/
+sane_env/
+build/
+dist/
+*.egg-info/
+
+# Lean 4 & Lake Artifacts
+.lake/
+lake-packages/
+*.olean
+*.ilean
+*.c
+*.trace
+.saarthi_scratch/
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment & Temp Files
+.env
+*.bak
+*.tmp
